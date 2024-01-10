@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #4f9ed6;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.btn-dark{
+    background-color: #ab1515;
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+    left: 95px;
+    border-radius: 20px;
+    color: lightcyan;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 2px #028bed solid;
+}
+
+
+.main-h1 {
+    width: 500px;
+    color: #cfe8fa;
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.country {
+    margin-top: 80px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    border: 2px #028bed solid;
+    color: #626669;
+}
+
+.country-name {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1px;
+    width: 100%;
+    height: auto;
+}
+
+.country-info {
+    width: 240px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+.country-img {
+    display: block;
+    width: 99%;
+    height: 200px;
+    filter: brightness(30%);
+    border: 2px #028bed solid;
+}
+
+.btn-go {
+    position: relative;
+    top: -30px;
+    left: 95px;
+    border-radius: 20px;
+    color: lightcyan;
+    background-color: #cf1919;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 2px #028bed solid;
+}
+
+.btn-text {
+    width: 80px;
+    display: block;
+    margin: auto;
+
+}
+
+.countries {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.symbols-h1 {
+    width: 500px;
+    color: #cfe8fa;
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.symbols-h2 {
+
+    color: #cfe8fa;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.flag {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+.gerb {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+.symb-text {
+    color: #cfe8fa;
+    ;
+    font-size: 20px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.hymn{
+    display: block;
+    box-shadow: 0px 0px 50px 4px rgba(34, 60, 80, 0.2);
+    width: 900px;
+    height: 185px;
+    overflow: hidden;
+    background-color: #028bed;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    transition: 1.5s;
+}
+
+.scrl-btn{
+    transition: 1s;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    position: relative;
+    left: 47.5%;
+    bottom: 150px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    background-color: #c2d8fc;
+    align-items: center; 
+}
+
+.scrl-btn:hover{
+    transition: 1s;
+    background-color: #9db7e0;
+}
+
+.scrl-btn-text{
+    transition: 0.5s;
+    margin-left: 42%;
+    font-size: 25px;
+}
+
+.scrl-btn-text:hover{
+    cursor: pointer;
+}
+
+#putin_army_btn{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 275px;
+    height: 125px;
+    background-image: url(img/Putins_army.PNG);
+    top: -25%;
+    left: 80%;
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 10px;
+    color: white;
+    border: whitesmoke 2px solid;    
+    box-shadow: 0px 0px 15px 2px rgba(34, 60, 80, 0.2);  
+    transform: scale(1);
+
+}
+
+#putin_army_btn:hover{
+    transform: scale(1.1);
+}
+
+
+.putin_army_btn_text{
+    width: 100px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: 75px;
+    background-color: purple;
+    border: white 7px solid;
+}
+
+.putin_army_btn_text:hover{
+    cursor: pointer;
+}
+
+.putin_gen_video{
+    position: fixed;
+    visibility: hidden;
+}
+
+.vis{
+    visibility: visible;
+}
+
+.unvis{
+    visibility: hidden;
+}
+
+
+
+.promt{
+    width: 200px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    background-color: #028bed;
+    opacity: 0;
+    transition: 0.2s;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    background: linear-gradient(324deg, rgba(80,148,204,1) 50%, rgba(28,100,158,1) 100%);
+}
+

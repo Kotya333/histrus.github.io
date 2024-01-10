@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .mch {
+            transition: 0.5s;
+        }
+
+        .mch-hover{
+            transition: 0.5s;
+            transform: scale(1.2, 1.2);
+            box-shadow: 0px 0px 9px 8px rgba(34, 60, 80, 0.25);
+        }
+
+        .mch:hover {
+            transition: 0.5s;
+            transform: scale(1.2, 1.2);
+            box-shadow: 0px 0px 9px 8px rgba(34, 60, 80, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+    <video class="putin_gen_video">
+        <source src="img/Денежная гимнастика!.mp4" class="putin_video">
+    </video>
+    <btn id="putin_army_btn"><span class="putin_army_btn_text">Разминочка</span></btn>
+    <header>
+        <h1 class="main-h1">История России</h1>
+    </header>
+    <nav class="countries">
+        <div class="country mch">
+            <img class="country-img" src="img/kiev-rus.jpg">
+            <btn class="btn-go" id="btnkr">
+                <p class="btn-text">На хазар</p>
+            </btn>
+            <h2 class="country-name">Киевская Русь </h2>
+            <p class="country-info">
+                Государство, которое существовало в IX-X веках на территории современной
+                Украины, Беларуси и частично России.
+            </p>
+
+        </div>
+        <div class="country mch">
+            <img class="country-img" src="img/nikolay2.jpg">
+            <btn class="btn-go" id="btnri">
+                <p class="btn-text">Против Кайзера</p>
+            </btn>
+            <h2 class="country-name">Российская империя </h2>
+            <p class="country-info">
+                Государство, существовавшего в России в период с 1721 по 1917 год.
+                Правил им царь(император).
+            </p>
+        </div>
+        <div class="country mch">
+            <img class="country-img" src="img/oktrevolution.jpg">
+            <btn class="btn-go" id="btnus">
+                <p class="btn-text">Отец народов</p>
+            </btn>
+            <h2 class="country-name">СССР </h2>
+            <p class="country-info">
+                Союз Советских Социалистических Республик - государство, существовавшее с 1922 по 1991 год.
+            </p>
+        </div>
+        <div class="country mch">
+            <img class="country-img" src="img/putin.jpg">
+            <btn class="btn-go" id="btnru">
+                <p class="btn-text">Шаман</p>
+            </btn>
+            <h2 class="country-name">Россия</h2>
+            <p class="country-info">
+                Россия - крупнейшая страна в мире (Наше время), с богатой историей и культурой.
+            </p>
+        </div>
+    </nav>
+    <article>
+        <h1 class="symbols-h1">Символы Государства</h1>
+        <h2 class="symbols-h2">Флаг России</h2>
+        <img src="img/russia-flag.jpg" class="flag">
+        <h2 class="symbols-h2">Герб</h2>
+        <img src="img/russia-gerb.jpg" class="gerb">
+        <div class="hymn">
+            <h2 class="symbols-h1">Гимн</h2>
+            <p class="symb-text">
+
+                Россия - священная наша держава,<br>
+                Россия - любимая наша страна.<br>
+                Могучая воля, великая слава -<br>
+                Твое достоянье на все времена!<br>
+            </p> <br>
+            <p class="symb-text">
+                Славься, Отечество наше свободное,<br>
+                Братских народов союз вековой,<br>
+                Предками данная мудрость народная!<br>
+                Славься, страна! Мы гордимся тобой!<br>
+            </p> <br>
+            <p class="symb-text">
+                От южных морей до полярного края<br>
+                Раскинулись наши леса и поля.<br>
+                Одна ты на свете! Одна ты такая -<br>
+                Хранимая Богом родная земля!<br>
+            </p> <br>
+            <p class="symb-text">
+                Славься, Отечество наше свободное,<br>
+                Братских народов союз вековой,<br>
+                Предками данная мудрость народная!<br>
+                Славься, страна! Мы гордимся тобой!<br>
+            </p> <br>
+            <p class="symb-text">
+                Широкий простор для мечты и для жизни<br>
+                Грядущие нам открывают года.<br>
+                Нам силу дает наша верность Отчизне.<br>
+                Так было, так есть и так будет всегда!<br>
+            </p>
+            <br>
+            <p class="symb-text">
+                Славься, Отечество наше свободное,<br>
+                Братских народов союз вековой,<br>
+                Предками данная мудрость народная!<br>
+                Славься, страна! Мы гордимся тобой!<br>
+            </p>
+        </div>    
+            <btn class="scrl-btn" id="scb1"><span class="scrl-btn-text" id="scbtext">^</span></btn>
+    </article>
+    <script src="libs/howler.js"></script>
+    <script src="code.js"></script>
+</body>
+
+</html>
